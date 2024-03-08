@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 75vh;
+    display: inline-block;
+    width: 110vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: fixed;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgb(158, 158, 158);
+}
+
+.container .info{
+    display: inline-block;
+    /* border:2px solid black; */
+    height: 90%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgb(30, 150, 252);
+}
+
+.container .forms{
+    display: inline-block;
+    /* border:2px solid black; */
+    height: 90%;
+    border-radius: 10px;
+    width: 60%;
+}
+.container .forms .signup{
+    font-size: 30px;
+    font-weight: 500;
+   
+}
+.container .forms .signup{
+    display: inline-block;
+    /* position: relative;
+    left: 4px; */
+    /* text-decoration: none; */
+    /* line-height: 20px; */
+}
+
+.container .forms .login{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* position: rela;tive;
+    left: 4px */
+}
+.container .forms .login a{
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+}
+
+.container .forms .bif{
+    font-size: 15px;
+}
+
+.container .forms .options{
+    display: inline-inline;
+    height: 50px;
+    width: 90%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.container .forms .options .ocupation{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 70%;
+    width: 40%;
+    transition: padding 0.1s;
+}
+.container .forms .options .ocupation:hover{
+    padding: 5px;
+}
+#email{
+    position: relative;
+    /* left: 20%; */
+    height: 30px;
+    width: 90%;
+    border-radius: 6px;
+    margin: 10px 5px;
+}
+
+#name{
+    position: relative;
+    /* left: 20%; */
+    height: 30px;
+    width: 90%;
+    border-radius: 6px;
+    margin: 10px 5px;
+    
+
+}
+
+#mo_no{
+    position: relative;
+    /* left: 20%; */
+    height: 30px;
+    width: 90%;
+    border-radius: 6px;
+    margin: 10px 5px;
+
+}
+
+#password{
+    position: relative;
+    /* left: 20%; */
+    height: 30px;
+    width: 90%;
+    margin: 10px 5px;
+    
+    border-radius: 6px;
+}
+ button{
+    height: 35px;
+    width: 120px;
+    background-color: aqua;
+    font-weight: 600;
+    margin: 10px 5px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    transition: border-width 0.1s;
+
+}
+
+button:hover{
+    font-weight: 750;
+    border-width: 3px;
+
+}
+
