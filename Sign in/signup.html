@@ -14,15 +14,14 @@
             <div class="signup">Sign up</div>
             <br>
             <div class="login">
-            <a href="">Have an account ?</a>
+                <a href="">Have an account ?</a>
             </div>
             <br>
             <span class="bif">Looking For:-</span>
             <div class="options">
-                
-                <div class="ocupation"><input type="radio" value="startup" id="s" name="ocupation">
+                <div class="ocupation">
+                    <input type="radio" value="startup" id="s" name="ocupation">
                     <label for="s">startup</label>
-
                 </div>
                 <div class="ocupation">
                     <input type="radio" value="startup" id="i" name="ocupation">
@@ -50,11 +49,27 @@
                     <input type="password" id="password" placeholder="*********">
                 </form>
             </div>
-
             <div class="btn">
                 <button>Create Account</button>
             </div>
         </div>
     </div>
+    <script>
+        // JavaScript to change color of ocupation div when radio button is clicked
+        const ocupationDivs = document.querySelectorAll('.ocupation');
+
+        ocupationDivs.forEach(div => {
+            div.addEventListener('click', () => {
+                // Remove background color from all ocupation divs
+                ocupationDivs.forEach(div => {
+                    div.style.backgroundColor = '';
+                    div.style.borderColor = 'black'; // Reset border color
+                });
+                // Add background color to the clicked ocupation div
+                div.style.backgroundColor = 'lightblue';
+                div.style.borderColor = 'lightblue'; // Change border color
+            });
+        });
+    </script>
 </body>
 </html>
