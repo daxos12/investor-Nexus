@@ -96,7 +96,7 @@ body {
     height: 30px;
     width: 90%;
     border-radius: 6px;
-    margin: 10px 5px;
+    margin: 2% 2%;
 }
 
 button {
@@ -118,4 +118,18 @@ button:hover {
 .container .forms .options input[type="radio"]:checked + label {
     background-color: lightblue;
     border-color: lightblue; /* Change border color */
+}
+
+.container .info .text
+{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    position: relative;
+    left: 2%;
+}
+.container .info .tex{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    position: relative;
+    left: 2%;
 }
